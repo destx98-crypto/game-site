@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="auth">
+  <h2>Login / Register</h2>
+  <input id="login" placeholder="Login">
+  <input id="password" type="password" placeholder="Parol">
+  <button onclick="register()">Register</button>
+  <button onclick="loginUser()">Login</button>
+</div>
+
+<div id="game" style="display:none;">
+  <h2 id="user"></h2>
+  <p id="balance"></p>
+  <p id="uc"></p>
+
+  <button onclick="play()">🎮 O‘YNASH (-3000)</button>
+  <button onclick="getReward()">🎁 YUTUQNI OLISH</button>
+  <button onclick="admin()">⚙️ ADMIN</button>
+
+  <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
