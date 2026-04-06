@@ -72,7 +72,7 @@ async function getReward() {
 async function admin() {
   let pass = prompt("Admin parol:");
 
-  if (pass !== "12345") return alert("Xato");
+  if (pass !== "@dilmurod@98") return alert("Xato");
 
   let user = prompt("Login:");
   let amount = prompt("Pul:");
